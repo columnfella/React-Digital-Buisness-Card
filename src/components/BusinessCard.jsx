@@ -5,9 +5,9 @@ import Info from './Info';
 
 export default function BusinessCard() {
     return (
-        <div className="buisiness-card">
+        <div className="business-card">
             <Info />
-            <div className="buisiness-card-content">
+            <div className="business-card-content">
                 <About />
                 <Interests />
             </div>
