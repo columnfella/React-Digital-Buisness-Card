@@ -2,26 +2,154 @@
     box-sizing: border-box;
 }
 
-body {
+h1, p {
+  margin: 0;
+}
+
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
     font-family: Inter, sans-serif;
-    background-color: #313030;
-    padding: 150px;
+    background-color: #23252c;
 }
 
 .buisiness-card {
-    background-color: #1f1e1e;
-    width: 40vh;
+  margin-top: 100px;  
+  background-color: #1a1b21;
+  width: 35vh;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .info-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
+}
+
+.info-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  color: white;
+}
+
+.info-position {
+  font-size: 1rem;
+  color: #f3bf99;
+}
+
+.info-website {
+  font-size: 0.7rem;
+  color: #bebec1;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+button > svg {
+  height: 20px;
+  margin-right: 4px;
+}
+
+.buisiness-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-top: 35px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 9px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 0.7rem;
+  color: #bebec1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #161616;
+  margin-top: 30px;
+}
+.info-linkedin-button {
+  background-color: #5093e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  border: none;
+  padding: 9px 23px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.info-linkedin-button-span {
+  font-size: 0.9rem;
+  font-weight: 550;
+}
+
+.info-email-button {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  border: none;
+  padding: 9px 23px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.info-email-button-span {
+  font-size: 0.9rem;
+  font-weight: 550;
+  color: #23252c;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.social-icon {
+  color: #484a4e; 
+  height: 20px;
+  width: 20px; 
 }

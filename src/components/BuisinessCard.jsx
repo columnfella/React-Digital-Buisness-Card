@@ -5,11 +5,13 @@ import Info from './Info';
 
 export default function BusinessCard() {
     return (
-        <section className="buisiness-card">
+        <div className="buisiness-card">
             <Info />
-            <About />
-            <Interests />
+            <div className="buisiness-card-content">
+                <About />
+                <Interests />
+            </div>
             <Footer />
-        </section>
+        </div>
     );
 }
