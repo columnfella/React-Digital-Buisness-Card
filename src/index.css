@@ -5,5 +5,23 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #313030;
+    padding: 150px;
 }
 
+.buisiness-card {
+    background-color: #1f1e1e;
+    width: 40vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

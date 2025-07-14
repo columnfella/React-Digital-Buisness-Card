@@ -5,7 +5,7 @@ import Info from './Info';
 
 export default function BusinessCard() {
     return (
-        <section className="business-card">
+        <section className="buisiness-card">
             <Info />
             <About />
             <Interests />
